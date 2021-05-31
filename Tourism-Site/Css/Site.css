@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    direction: rtl;
+}
+/*-------------------start header-------------------*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+}
+.header nav ul{
+    display: flex;
+    margin-right: 100px;;
+}
+.header nav ul li{
+    padding-left: 30px;
+    list-style-type: none;
+    line-height: 60px;
+}
+.header nav .submenu{
+    display: none;
+}
+.header nav ul li a{
+    color: rgb(27, 25, 25);
+    text-decoration: none;
+    transition: all 0.2s;
+    font-size: 0.95rem;
+}
+.header nav ul li a:hover{
+    color: rgb(224, 131, 24);
+}
+.header nav ul li:hover >ul{
+    display: block;
+}
+.header nav .submenu{
+    position: absolute;
+    right: 243px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.3);
+    z-index: 10000;
+}
+.header nav .submenu li{
+    margin-top: -15px;
+    margin-right: 28px;
+}
+.header p{
+    font-size: 1rem;
+    margin-left: 200px;
+    line-height: 60px;
+    font-size: 1.1rem;
+}
+.header span{
+    font-size: 1.8rem;
+    color: red;
+}
+/*-------------------end header-------------------*/
+
+/*-------------------start slider-------------------*/
+.slider{
+    width: 100%;
+}
+.slider img{
+    height: 660px;
+}
+/*-------------------end slider-------------------*/
+
+/*-------------------start search-------------------*/
+.search{
+    width: 100%;
+    height: 70px;
+    background-color: #1a1e31;
+    display: flex;
+}
+.search .text{
+    width: 125px;
+    text-align: right;
+    margin-right: 374px;
+    line-height: 74px;
+    color: white;
+}
+.form form{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 86px;
+}
+.form form div{
+    color: white;
+}
+.search .form form .where{
+    height: 34px;
+    width: 190px;
+    padding-right: 20px;
+}
+.search .form form .when{
+    height: 34px;
+    width: 190px;
+}
+.search .form form button{
+    background-color: #1ac3af;
+    border: none;
+    height: 34px;
+    width: 81px;
+    margin-right: -20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.search .form form button:hover{
+    background-color: rgb(224, 131, 24);
+}
+.search .form form div{
+    padding-left: 57px;
+}
+/*-------------------end search-------------------*/
+
+/*-------------------start offer-------------------*/
+.offer{
+    width: 70%;
+    margin: 0 auto;
+    height: 390px;
+    margin-top: 50px;
+}
+.offer p{
+    margin-left: 397px;
+    color: #585551;
+}
+.offer h3{
+    margin-left: 514px;
+    color: #000000;
+}
+.offer .offer1{
+    display: flex;
+    margin-right: -14px;
+}
+.offer .offer-pic{
+    width: 239px;
+    height: 219px;
+    margin-right: 15px;
+    margin-top: 30px;
+    background-color: white;
+    text-align: right;
+    transition: all 0.5s;
+}
+.offer .offer-pic:hover{
+    width: 300px;
+    height: 280px;
+    background-color: rgb(27, 25, 25);
+}
+.offer .offer-pic:hover>h5{
+    color: white;
+}
+.offer .offer-pic:hover>h6{
+    color: white;
+}
+.offer .offer-pic img{
+    width: 100%;
+    height: 80%;
+}
+.offer .offer-pic h5,h6{
+    padding-right: 5px;
+    line-height: 19px;
+    color: #585551;;
+    font-size: 1.1rem;
+}
+/*-------------------end offer-------------------*/
+
+/*-------------------start icons-------------------*/
+.icons{
+    width: 70%;
+    margin: 0 auto;
+    height: 300px;
+    margin-top: 15px;
+}
+.icons img{
+    width: 100%;
+    height: 100%;
+}
+/*-------------------end icons-------------------*/
+
+/*-------------------start icons1-------------------*/
+.icons1{
+    width: 70%;
+    margin: 0 auto;
+    height: 300px;
+    background-color: rgb(9 14 35);
+    opacity: 0.9;
+    margin-top: -300px;
+}
+.icons1 h4{
+    margin-left: 439px;
+    padding-top: 16px;
+    color: white;
+}
+.icons1 p{
+    margin-left: 286px;
+    color: #b1abab;
+}
+.icons1 .flat{
+    width: 70%;
+    height: 186px;
+    margin: 0 auto;
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 179px;
+}
+.icons1 .flat-icon{
+    width: 20%;
+}
+.icons1 .flat-icon1{
+    border: 2px solid #1bc4b0;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    margin-right: 27px;
+}
+.icons1 .flat-icon1 img{
+    width: 50px;
+    height: 50px;
+}
+.icons1  .flat-icon p{
+    width: 137px;
+    text-align: center;
+    color: #b1abab;
+}
+/*-------------------end icons1-------------------*/
+
+/*-------------------start reviews-------------------*/
+.reviews{
+    width: 70%;
+    height: 225px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.reviews1{
+    display: flex;
+    width: 100%;
+    height: 123px;
+    justify-content: space-between;
+}
+.reviews h4{
+    margin-left: 487px;
+}
+.reviews p{
+    margin-left: 397px;
+}
+.reviews .review1{
+    width: 23%;
+    height: 142px;
+    margin-right: 1%;
+}
+.reviews .review1 p{
+    width: 249px;
+    text-align: right;
+    padding-top: 2px;
+    border-top: 1px solid #1bc4b0;
+}
+.reviews .review1 h5{
+    text-align: right;
+    color: black;
+}
+/*-------------------end reviews-------------------*/
+
+/*-------------------start footer-------------------*/
+footer{
+    width: 100%;
+    height: 275px;
+    background-color: #1a1e31;
+    margin-top: 50px
+}
+footer .footer  h5{
+    color: #1ac3af;
+}
+footer .footer{
+    width: 80%;
+    margin: 0 auto;
+    height: 250px;
+    display: flex;
+    text-align: center;
+}
+footer .footer .address{
+    width: 24%;
+    margin-left: 2%;
+    margin-top: 30px;
+}
+footer .footer .address p{
+    color: white;
+}
+footer .footer .address a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+footer .footer .address a:hover{
+    color: #1ac3af;
+}
+footer .footer .address a i{
+    padding-right: 20px;
+    padding-top: 10px;
+}
+footer .footer .about{
+    width: 24%;
+    margin-left: 2%;
+    margin-top: 30px;
+}
+footer .footer .about p{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+footer .footer .gallery{
+    width: 24%;
+    margin-left: 2%;
+    margin-top: 30px;
+}
+footer .footer .gallery img{
+    width: 30%;
+    margin-left: -2%;
+    height: 75px;
+}
+footer .footer .comment{
+    width: 24%;
+    margin-left: 2%;
+    margin-top: 30px;
+    display: block;
+}
+footer .footer .comment input{
+    width: 205px;
+    height: 33px;
+    background-color: #22242d94;
+    color: white;
+    border: none;
+    padding-right: 5px;
+}
+footer .footer .comment textarea{
+    width: 205px;
+    height: 64px;
+    margin-top: 16px;
+    background-color: #22242d94;
+    color: white;
+    border: none;
+    padding-right: 5px;
+}
+footer .footer .comment button{
+    width: 63px;
+    background-color: #19c3ae;
+    border: none;
+    margin-right: -142px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+footer .footer .comment button:hover{
+    background-color: rgb(224, 131, 24);
+}
+footer .copy{
+    width: 100%;
+    height: 25px;
+    color: white;
+    background-color: #0f111b;
+    text-align: center;
+}
+footer #cd{
+    color: white;
+    margin-right: 5px;
+}
+/*-------------------end footer-------------------*/
+
+
+/*-------------------start responsive for ipad pro-------------------*/
+@media only screen and (max-width: 1024px) {
+    .search .text{
+        margin-right: 80px;
+    }
+    .offer{
+        width: 100%
+    }
+    .offer h3{
+        margin-left: 455px;
+    }
+    .offer p{
+        margin-left: 331px;
+    }
+    .icons{
+        width: 100%;
+    }
+    .icons1{
+        width: 100%;
+    }
+    .reviews{
+        width: 100%;
+    }
+    .reviews .review1{
+        margin-left: 0px;
+        width: 25%;
+    }
+    footer .footer{
+        width: 100%;
+    }
+  }
+/*-------------------end responsive for ipad pro-------------------*/
